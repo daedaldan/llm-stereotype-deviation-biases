@@ -39,6 +39,8 @@ We then perform keyword extraction and sentiment analysis to obtain the followin
 * Occupation
 * Polarity
 
+These generated texts are stored in JSON files that are used in the third stage in the pipeline.
+
 ## 3. Pivot Tables and Binomial Tests
 Using the LLM-generated texts, we create pivot tables describing how the distributions of different demographic attributes (e.g., religion, politics) in the texts differ based on the input groups (e.g, gender, race, age) represented by the prompts.
 
