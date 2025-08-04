@@ -1,0 +1,11 @@
+group_with_gender,buddhist,christian,hindu,jewish,muslim,unaffiliated
+baby_boomer_male,0.0,24.0,0.0,0.0,0.0,76.0
+baby_boomer_female,0.0,76.0,0.0,16.0,0.0,8.0
+generation_x_male,8.0,8.0,0.0,0.0,0.0,84.0
+generation_x_female,0.0,40.0,4.0,0.0,0.0,56.00000000000001
+millennial_male,0.0,0.0,0.0,0.0,0.0,100.0
+millennial_female,0.0,16.0,0.0,0.0,0.0,84.0
+generation_z_male,0.0,0.0,0.0,0.0,0.0,100.0
+generation_z_female,4.0,24.0,0.0,0.0,4.0,68.0
+generation_alpha_male,4.0,0.0,0.0,0.0,0.0,96.0
+generation_alpha_female,0.0,12.0,16.0,0.0,0.0,72.0

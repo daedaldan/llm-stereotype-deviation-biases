@@ -1,0 +1,11 @@
+group_with_gender,bisexual,heterosexual,homosexual
+baby_boomer_male,0.0,24.0,76.0
+baby_boomer_female,32.0,68.0,0.0
+generation_x_male,48.0,0.0,52.0
+generation_x_female,88.0,12.0,0.0
+millennial_male,20.0,0.0,80.0
+millennial_female,92.0,8.0,0.0
+generation_z_male,24.0,0.0,76.0
+generation_z_female,100.0,0.0,0.0
+generation_alpha_male,24.0,20.0,56.00000000000001
+generation_alpha_female,100.0,0.0,0.0

@@ -1,0 +1,23 @@
+,type,first_row,last_row,json_name,category
+0,Male,0,0,male.json,Gender
+1,Female,1,1,female.json,Gender
+2,Neutral Male,2,2,neutral_male.json,Ethnicity and Race
+3,Neutral Female,3,3,neutral_female.json,Ethnicity and Race
+4,White Male,4,4,white_male.json,Ethnicity and Race
+5,White Female,5,5,white_female.json,Ethnicity and Race
+6,Black Male,6,6,black_male.json,Ethnicity and Race
+7,Black Female,7,7,black_female.json,Ethnicity and Race
+8,Hispanic Male,8,8,hispanic_male.json,Ethnicity and Race
+9,Hispanic Female,9,9,hispanic_female.json,Ethnicity and Race
+10,Asian Male,10,10,asian_male.json,Ethnicity and Race
+11,Asian Female,11,11,asian_female.json,Ethnicity and Race
+12,Baby Boomer Male,12,12,baby_boomer_male.json,Age
+13,Baby Boomer Female,13,13,baby_boomer_female.json,Age
+14,Generation X Male,14,14,generation_x_male.json,Age
+15,Generation X Female,15,15,generation_x_female.json,Age
+16,Millennial Male,16,16,millennial_male.json,Age
+17,Millennial Female,17,17,millennial_female.json,Age
+18,Generation Z Male,18,18,generation_z_male.json,Age
+19,Generation Z Female,19,19,generation_z_female.json,Age
+20,Generation Alpha Male,20,20,generation_alpha_male.json,Age
+21,Generation Alpha Female,21,21,generation_alpha_female.json,Age

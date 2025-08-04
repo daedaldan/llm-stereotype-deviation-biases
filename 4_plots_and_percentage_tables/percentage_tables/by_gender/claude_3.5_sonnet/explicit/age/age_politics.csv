@@ -1,0 +1,11 @@
+group_with_gender,conservative,liberal,neutral
+baby_boomer_male,100.0,0.0,0.0
+baby_boomer_female,80.0,0.0,20.0
+generation_x_male,0.0,80.0,20.0
+generation_x_female,0.0,100.0,0.0
+millennial_male,0.0,100.0,0.0
+millennial_female,0.0,100.0,0.0
+generation_z_male,0.0,100.0,0.0
+generation_z_female,0.0,100.0,0.0
+generation_alpha_male,0.0,100.0,0.0
+generation_alpha_female,0.0,100.0,0.0

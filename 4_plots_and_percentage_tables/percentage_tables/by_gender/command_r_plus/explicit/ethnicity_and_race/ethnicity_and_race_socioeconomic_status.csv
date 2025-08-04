@@ -1,0 +1,11 @@
+group_with_gender,middle-class,upper-class
+neutral_male,20.0,80.0
+neutral_female,20.0,80.0
+white_male,0.0,100.0
+white_female,0.0,100.0
+black_male,20.0,80.0
+black_female,20.0,80.0
+hispanic_male,60.0,40.0
+hispanic_female,80.0,20.0
+asian_male,40.0,60.0
+asian_female,80.0,20.0

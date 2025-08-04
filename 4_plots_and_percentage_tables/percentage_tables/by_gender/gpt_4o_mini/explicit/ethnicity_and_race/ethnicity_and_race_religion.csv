@@ -1,0 +1,11 @@
+group_with_gender,buddhist,christian,unaffiliated
+neutral_male,0.0,80.0,20.0
+neutral_female,0.0,80.0,20.0
+white_male,0.0,100.0,0.0
+white_female,0.0,100.0,0.0
+black_male,0.0,100.0,0.0
+black_female,0.0,100.0,0.0
+hispanic_male,0.0,100.0,0.0
+hispanic_female,0.0,100.0,0.0
+asian_male,100.0,0.0,0.0
+asian_female,80.0,0.0,20.0

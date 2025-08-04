@@ -1,0 +1,6 @@
+,group,lower-class,middle-class,upper-class
+0,neutral,0.0,100.0,0.0
+1,white,0.0,100.0,0.0
+2,black,20.0,80.0,0.0
+3,hispanic,10.0,90.0,0.0
+4,asian,0.0,90.0,10.0

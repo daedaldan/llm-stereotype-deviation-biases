@@ -1,0 +1,6 @@
+,group,accountant,biologist,designer,engineer,executive,lawyer,librarian,neurosurgeon,nurse,president,teacher,veterinarian
+0,baby_boomer,8.0,0.0,0.0,38.0,0.0,0.0,2.0,2.0,2.0,0.0,40.0,8.0
+1,generation_x,0.0,0.0,0.0,54.0,16.0,0.0,0.0,0.0,6.0,0.0,12.0,12.0
+2,millennial,0.0,0.0,4.0,56.0,22.0,2.0,0.0,0.0,0.0,0.0,2.0,14.000000000000002
+3,generation_z,0.0,0.0,2.0,74.0,14.000000000000002,0.0,0.0,0.0,8.0,0.0,0.0,2.0
+4,generation_alpha,0.0,10.0,8.0,58.0,10.0,2.0,0.0,0.0,2.0,10.0,0.0,0.0

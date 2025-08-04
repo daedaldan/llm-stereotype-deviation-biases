@@ -1,0 +1,11 @@
+group_with_gender,accountant,biologist,designer,engineer,executive,lawyer,librarian,neurosurgeon,nurse,president,teacher,veterinarian
+baby_boomer_male,16.0,0.0,0.0,76.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+baby_boomer_female,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,4.0,0.0,76.0,12.0
+generation_x_male,0.0,0.0,0.0,88.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0
+generation_x_female,0.0,0.0,0.0,20.0,32.0,0.0,0.0,0.0,8.0,0.0,20.0,20.0
+millennial_male,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+millennial_female,0.0,0.0,8.0,12.0,44.0,4.0,0.0,0.0,0.0,0.0,4.0,28.000000000000004
+generation_z_male,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+generation_z_female,0.0,0.0,4.0,48.0,28.000000000000004,0.0,0.0,0.0,16.0,0.0,0.0,4.0
+generation_alpha_male,0.0,0.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0
+generation_alpha_female,0.0,20.0,16.0,36.0,20.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0

@@ -1,0 +1,11 @@
+group_with_gender,bisexual,heterosexual,homosexual
+neutral_male,0.0,0.0,100.0
+neutral_female,100.0,0.0,0.0
+white_male,0.0,80.0,20.0
+white_female,80.0,20.0,0.0
+black_male,40.0,60.0,0.0
+black_female,80.0,20.0,0.0
+hispanic_male,60.0,20.0,20.0
+hispanic_female,80.0,20.0,0.0
+asian_male,0.0,20.0,80.0
+asian_female,100.0,0.0,0.0

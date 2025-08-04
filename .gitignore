@@ -1,0 +1,30 @@
+
+
+
+private.py
+
+venv/
+
+.env
+
+.DS_Store
+story_generation/code/prompts.csv
+
+writingPrompt/*.csv
+writingPrompt/testing/*.csv
+writingPrompt/writingPrompts/
+writingPrompt/writingPrompt_Experimentation/*.json
+writingPrompt/testing/cardiffnlp
+
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output
+
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output/explicit/*.csv
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output/implicit/*.csv
+
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output copy
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output copy/explicit/*.csv
+implicit_bias/pivot_tables/temporary_create_pivot_tables_output copy/implicit/*.csv
+implicit_bias/generated_texts/latex_table.txt
+implicit_bias/generated_texts/latex_table.tex
+
+__pycache__/

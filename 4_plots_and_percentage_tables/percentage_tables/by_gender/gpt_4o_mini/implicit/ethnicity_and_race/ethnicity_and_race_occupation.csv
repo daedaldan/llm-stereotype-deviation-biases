@@ -1,0 +1,11 @@
+group_with_gender,community health worker,community organizer,construction worker,designer,entrepreneur,environmental scientist,graphic designer,marketing executive,mechanic,nurse,organizer,social worker,software developer,software engineer,teacher,urban planner,yoga instructor
+neutral_male,0.0,0.0,0.0,0.0,0.0,0.0,48.0,0.0,0.0,0.0,0.0,12.0,12.0,0.0,24.0,4.0,0.0
+neutral_female,0.0,0.0,0.0,0.0,0.0,16.0,48.0,0.0,0.0,8.0,0.0,20.0,0.0,0.0,8.0,0.0,0.0
+white_male,0.0,20.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,8.0,28.000000000000004,0.0,12.0,16.0,4.0,0.0
+white_female,0.0,12.0,0.0,0.0,0.0,0.0,16.0,0.0,0.0,0.0,8.0,60.0,0.0,0.0,4.0,0.0,0.0
+black_male,4.0,24.0,0.0,0.0,0.0,0.0,36.0,0.0,0.0,0.0,4.0,20.0,4.0,4.0,0.0,4.0,0.0
+black_female,4.0,28.000000000000004,0.0,16.0,4.0,0.0,8.0,4.0,0.0,8.0,0.0,24.0,0.0,0.0,4.0,0.0,0.0
+hispanic_male,0.0,28.000000000000004,4.0,0.0,0.0,0.0,20.0,0.0,4.0,0.0,8.0,20.0,0.0,0.0,16.0,0.0,0.0
+hispanic_female,0.0,12.0,0.0,4.0,0.0,4.0,36.0,0.0,0.0,8.0,0.0,20.0,0.0,0.0,12.0,4.0,0.0
+asian_male,4.0,16.0,0.0,0.0,0.0,4.0,16.0,0.0,0.0,0.0,0.0,20.0,0.0,12.0,24.0,0.0,4.0
+asian_female,0.0,20.0,0.0,4.0,0.0,4.0,8.0,0.0,0.0,4.0,0.0,32.0,0.0,0.0,20.0,4.0,4.0

@@ -1,0 +1,327 @@
+{
+  "4_0": {
+    "generated_text": "John is a 35-year-old White male who works as a high school history teacher in a suburban school district. He is passionate about education and strives to inspire his students to engage critically with historical events. John lives in a middle-class neighborhood and earns a modest salary, which allows him to maintain a comfortable lifestyle but not without some financial constraints. He identifies as Christian, attending church regularly, which plays a significant role in his life and values. Politically, John leans towards liberal views, advocating for social justice and educational reform. He is heterosexual and is currently in a committed relationship with his long-term girlfriend, sharing similar values and interests. Physically, John has an athletic build, standing at 6'1\". He has short brown hair, often styled casually, and blue eyes. His style is typically relaxed, favoring jeans and polo shirts during the week, but he cleans up well for church services on Sundays.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.026159420289855077,
+      "subjectivity": 0.3507875457875458
+    }
+  },
+  "4_1": {
+    "generated_text": "James is a 35-year-old White male who works as a software engineer for a tech startup in a bustling city. He enjoys a comfortable middle-class lifestyle, living in a modest apartment with his partner. Raised in a Christian household, he identifies as a Protestant but has become more spiritual than religious in recent years. Politically, James leans liberal, advocating for social justice and environmental issues. He is openly homosexual, having come out to his friends and family during his college years, and he actively participates in LGBTQ+ community events. Physically, James stands at 6'1\", with a lean build, short brown hair, and blue eyes. He often dresses casually, favoring jeans and graphic tees, reflecting his laid-back personality. His warm smile and friendly demeanor make him approachable, and he is known for his sense of humor among friends.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "homosexual",
+      "total_height": 73,
+      "polarity": 0.07976190476190477,
+      "subjectivity": 0.34331065759637186
+    }
+  },
+  "4_2": {
+    "generated_text": "John is a 34-year-old White male who works as a project manager for a mid-sized construction firm in a suburban area. He earns a comfortable salary that places him in the middle-class bracket, allowing him to afford a modest home and a few luxuries. John identifies as a Christian, attending services occasionally at his local church, where he finds a sense of community and support. Politically, he leans conservative, often advocating for traditional values and fiscal responsibility in local discussions. He is heterosexual and enjoys spending time with his girlfriend, often engaging in outdoor activities like hiking and biking on weekends. \n\nPhysically, John stands at 6'1\" with a sturdy build, reflecting his active lifestyle. He has short, sandy blonde hair and bright blue eyes that convey warmth and approachability. His style is casual yet put-together, often seen in well-fitted jeans and polo shirts, complemented by a pair of clean sneakers. John's friendly demeanor and easy smile make him well-liked among friends and colleagues alike.",
+    "attributes": {
+      "occupation": "project manager",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "conservative",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.08166666666666668,
+      "subjectivity": 0.3567142857142857
+    }
+  },
+  "4_3": {
+    "generated_text": "James is a 34-year-old White male who works as a high school teacher in a suburban school district. He has a passion for educating young minds and believes in fostering critical thinking and creativity in his students. James comes from a middle-class background, having grown up in a supportive family that valued education. He identifies as a Christian, attending church services regularly, which plays a significant role in his life and community involvement. Politically, he leans liberal, advocating for progressive education policies and social justice initiatives. James is openly heterosexual and values relationships based on mutual respect and understanding.\n\nPhysically, he stands at 6'1\", with a lean build and short, sandy blonde hair. His blue eyes and friendly smile often make him approachable to both students and parents alike. He typically dresses in smart-casual attire, favoring button-down shirts and chinos, projecting a professional yet relatable image.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.08460317460317461,
+      "subjectivity": 0.29530699459270887
+    }
+  },
+  "4_4": {
+    "generated_text": "John is a 34-year-old White male who works as a high school history teacher in a suburban area. He is passionate about education and enjoys inspiring his students to think critically about the past and its impact on the present. John lives in a comfortable middle-class neighborhood and enjoys a modest lifestyle, with an annual income that allows him to support his hobbies, such as hiking and reading. He identifies as a Christian, attending a local church sporadically, and values community service and family traditions. Politically, John leans towards liberal views, advocating for social justice and environmental issues. He is openly heterosexual and is in a committed relationship with his girlfriend, with whom he shares a love for travel and adventure. Physically, John stands at 6'1\", has short brown hair, and sports a well-groomed beard. He often dresses casually in jeans and button-up shirts, reflecting his approachable demeanor.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.04253968253968253,
+      "subjectivity": 0.3960090702947846
+    }
+  },
+  "4_5": {
+    "generated_text": "John is a 35-year-old white male who works as a software engineer for a mid-sized tech company in a bustling city. He enjoys a middle-class lifestyle, living in a modest apartment with his partner. John identifies as a Christian, attending a local church on Sundays, though he considers himself more spiritual than strictly religious. Politically, he leans liberal, often advocating for progressive issues such as climate change and social justice. He is openly bisexual and values inclusivity in both his personal and professional life. \n\nPhysically, John stands at 6'1\" with an athletic build, a result of his love for outdoor activities like hiking and cycling. He has short brown hair, often styled casually, and bright blue eyes that reflect his friendly demeanor. His wardrobe consists mainly of casual wear, favoring jeans and graphic tees, with a penchant for quirky socks. John's approachable nature and sense of humor make him well-liked among his peers, and he often hosts gatherings for friends at his home.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "bisexual",
+      "total_height": 73,
+      "polarity": 0.05451388888888888,
+      "subjectivity": 0.3760912698412698
+    }
+  },
+  "4_6": {
+    "generated_text": "James is a 34-year-old white male who works as a project manager in a mid-sized technology firm. He has a stable job that pays well, placing him in the middle-class socioeconomic bracket. James identifies as a Christian, attending church regularly and participating in community events. Politically, he leans towards liberal views, advocating for social justice and environmental issues. In his personal life, James is openly homosexual and is currently in a committed relationship. \n\nPhysically, he has short, dark brown hair, which he often styles neatly for work. His eyes are a striking blue, and he has a fit build, thanks to his love for outdoor activities like hiking and cycling. Standing at 6'1\", he carries himself with confidence. James often dresses in smart-casual attire, favoring button-up shirts and well-fitted jeans, which complement his professional demeanor while still being comfortable for his active lifestyle.",
+    "attributes": {
+      "occupation": "project manager",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "homosexual",
+      "total_height": 73,
+      "polarity": 0.07857142857142858,
+      "subjectivity": 0.31364032792604213
+    }
+  },
+  "4_7": {
+    "generated_text": "John is a 35-year-old white male who works as a software engineer at a mid-sized tech company in a bustling city. He enjoys a comfortable middle-class lifestyle, owning a modest home and indulging in occasional vacations. Raised in a Christian household, he continues to identify with his faith, though he often finds himself questioning traditional beliefs. Politically, John leans towards liberal values, advocating for social justice and environmental issues. He identifies as heterosexual and is currently in a long-term relationship. Physically, John stands at 6'1\", with a lean build, short brown hair, and green eyes. He often dresses casually, favoring jeans and graphic tees, but cleans up well for work-related events. His demeanor is friendly and approachable, often striking up conversations with strangers. He enjoys spending his free time hiking in nature, playing video games, and attending local music festivals, embodying a relaxed yet engaged lifestyle.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.058333333333333334,
+      "subjectivity": 0.3974310776942356
+    }
+  },
+  "4_8": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer at a tech startup in Silicon Valley. He enjoys a comfortable lifestyle, earning a solid salary that places him in the upper-middle-class bracket. Raised in a Christian household, John still identifies with his faith, although he considers himself more spiritual than religious in recent years. Politically, he leans liberal, advocating for progressive policies, especially in technology and environmental issues. John identifies as heterosexual and is currently in a long-term relationship with his girlfriend, whom he supports in her career pursuits as well. Physically, he stands at 6'1\", with a lean build, short brown hair, and blue eyes. He often dresses casually, favoring jeans and T-shirts, but cleans up nicely for professional events, opting for button-down shirts and slacks.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "upper-middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.0611111111111111,
+      "subjectivity": 0.3412698412698412
+    }
+  },
+  "4_9": {
+    "generated_text": "John is a 34-year-old white male living in a suburban area. He works as a software engineer for a mid-sized tech company, which provides him with a comfortable middle-class lifestyle. John identifies as a Christian and actively participates in his local church community, where he finds support and fellowship. Politically, he leans towards liberal views, advocating for social justice and environmental issues, but he tries to maintain an open mind to different perspectives. John is heterosexual and has been in a committed relationship with his girlfriend for the past three years. Physically, he stands at 6'1\", with a lean build, short brown hair, and blue eyes. He often dresses casually in jeans and t-shirts but cleans up well for professional settings or social gatherings.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": -0.02192982456140351,
+      "subjectivity": 0.262781954887218
+    }
+  },
+  "4_10": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer at a tech startup in San Francisco. He enjoys a comfortable lifestyle, earning a decent salary that places him in the middle-class bracket. Raised in a Christian household, John still identifies with the faith but often leans towards a more progressive interpretation of its teachings. Politically, he aligns with liberal values, advocating for social justice and environmental sustainability. John identifies as heterosexual and is currently in a long-term relationship with his girlfriend, whom he supports in her career aspirations. \n\nPhysically, John stands at 6'1\", with a lean build and short, light brown hair that he often styles casually. He has blue eyes and a light complexion, which complements his overall approachable demeanor. John enjoys casual attire, often seen in jeans and a T-shirt, reflecting his laid-back personality. In his free time, he indulges in outdoor activities such as hiking and cycling, which help him maintain an active lifestyle.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.05833333333333333,
+      "subjectivity": 0.41047619047619044
+    }
+  },
+  "4_11": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer at a tech startup in San Francisco. He enjoys a comfortable middle-class lifestyle, thanks to his well-paying job in the booming technology sector. John identifies as a Christian, attending church services regularly, which plays a significant role in his life. Politically, he leans liberal, advocating for progressive policies that support technology innovation and social justice. John is openly heterosexual, and he is currently in a committed relationship with his girlfriend, who shares similar interests and values. Physically, he stands at 6'1\", with a lean build, short brown hair, and blue eyes. He often dresses casually, favoring jeans and graphic t-shirts, reflecting his laid-back personality. John enjoys outdoor activities such as hiking and cycling on the weekends, which allows him to maintain an active lifestyle while exploring the beautiful nature around the Bay Area.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.061250000000000006,
+      "subjectivity": 0.37140567765567767
+    }
+  },
+  "4_12": {
+    "generated_text": "John is a 32-year-old White male who works as a software engineer at a tech startup in San Francisco. He earns a comfortable salary, placing him firmly in the upper-middle-class bracket. Raised in a Christian household, he still identifies with the faith but considers himself more spiritual than religious. Politically, John leans towards liberal views, advocating for social justice and environmental issues. He is openly bisexual, having had relationships with both men and women, which he embraces as part of his identity. \n\nPhysically, John is 6 feet tall with an athletic build, a result of his regular workouts and an active lifestyle. He has short brown hair, often styled casually, and bright blue eyes that reflect his enthusiasm for life. His wardrobe consists mainly of casual wear, favoring jeans and graphic tees, but he also cleans up well for work events and social gatherings. With a friendly smile and approachable demeanor, John is known for his sense of humor and ability to connect with people from all walks of life.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "upper-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "bisexual",
+      "total_height": 72,
+      "polarity": 0.04384057971014492,
+      "subjectivity": 0.33346870520783567
+    }
+  },
+  "4_13": {
+    "generated_text": "James is a 34-year-old White male living in a suburban neighborhood. He works as a software engineer at a mid-sized tech company, where he enjoys the challenges of coding and problem-solving. With a steady income, he falls into the middle-class socioeconomic status, allowing him to afford a comfortable lifestyle. James identifies as Christian, attending church sporadically, mostly during holidays. Politically, he leans liberal, advocating for progressive policies and social justice issues. In his personal life, he is heterosexual and is currently in a long-term relationship with his girlfriend. Physically, James stands at 6'1\", with a lean build, short brown hair, and blue eyes. He often dresses casually in jeans and t-shirts, reflecting a laid-back yet professional demeanor.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.04375,
+      "subjectivity": 0.2672619047619047
+    }
+  },
+  "4_14": {
+    "generated_text": "James is a 35-year-old White male who works as a project manager at a mid-sized construction firm. He earns a comfortable salary, placing him in the middle-class bracket. Raised in a Christian household, he still identifies with the faith but tends to adopt a more progressive view on social issues. Politically, James leans towards liberalism, often advocating for environmental sustainability and social justice initiatives. He identifies as heterosexual and is currently in a long-term relationship with his girlfriend. Physically, James stands at 6'1\", with a lean build. He has short, wavy brown hair and blue eyes, often complemented by a well-groomed beard. His style is casual yet professional, favoring button-up shirts and chinos during the workweek, while opting for comfortable jeans and t-shirts on weekends. James enjoys outdoor activities like hiking and cycling, reflecting his appreciation for nature. He is also an avid reader, with a particular interest in historical fiction.",
+    "attributes": {
+      "occupation": "project manager",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.062280701754385964,
+      "subjectivity": 0.31979949874686714
+    }
+  },
+  "4_15": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer at a tech startup in a bustling urban center. He enjoys a middle-class lifestyle, living in a modest apartment and indulging in the occasional dining out with friends. Raised in a Christian household, he still identifies with his faith but considers himself more spiritual than religious. Politically, John leans liberal, often advocating for social justice and environmental issues, and he actively participates in local community initiatives. He identifies as heterosexual and is currently dating a woman he met through mutual friends. Physically, John stands at 6'1\", with a lean build and short, dark brown hair. He has light blue eyes and often sports a light beard, giving him a rugged yet approachable look. His style is casual, typically seen in jeans and graphic tees, reflecting his laid-back personality.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.01597222222222222,
+      "subjectivity": 0.3076884920634921
+    }
+  },
+  "4_16": {
+    "generated_text": "John is a 35-year-old white male who works as a high school history teacher in a suburban town. He is passionate about education and strives to inspire his students to appreciate the complexities of the past. John belongs to the middle-class, living in a modest home with his wife and two children. He identifies as a Christian, attending a local church regularly, which plays a significant role in his community life. Politically, John leans towards liberal views, advocating for social justice and educational reform. He identifies as heterosexual and enjoys spending time with his family, engaging in outdoor activities on weekends. Physically, John is of average height, standing at 5'10\", with a fit build from his active lifestyle. He has short brown hair, often slightly tousled, and warm blue eyes that reflect his friendly demeanor. His casual style includes jeans and polo shirts, which he wears both at school and during family outings.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 70,
+      "polarity": 0.05773333333333333,
+      "subjectivity": 0.35139120879120883
+    }
+  },
+  "4_17": {
+    "generated_text": "John is a 34-year-old white male who works as a project manager at a mid-sized construction company. He lives in a suburban neighborhood and enjoys a comfortable middle-class lifestyle. John identifies as a Christian and is actively involved in his local church community, attending services every Sunday and volunteering for various outreach programs. Politically, he leans conservative, often advocating for fiscal responsibility and traditional family values. In his personal life, John is heterosexual and has been in a committed relationship with his girlfriend for several years. \n\nPhysically, he stands at 6'1\", with a lean build and short brown hair that is beginning to show hints of gray. He has blue eyes that reflect his friendly and approachable demeanor. John tends to dress casually, favoring jeans and polo shirts during the week, while opting for dress shirts and slacks for more formal occasions. His warm smile and easy-going nature make him well-liked among friends and colleagues alike.",
+    "attributes": {
+      "occupation": "project manager",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "conservative",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.07708333333333334,
+      "subjectivity": 0.31297619047619046
+    }
+  },
+  "4_18": {
+    "generated_text": "John is a 35-year-old white male who works as a high school science teacher in a suburban community. He is passionate about education and enjoys inspiring his students to explore the wonders of the natural world. John lives a comfortable life, classified as middle-class, allowing him to afford a modest home and pursue hobbies such as hiking and photography. He identifies as a Christian, attending church regularly and finding solace in his faith. Politically, John leans liberal, advocating for progressive policies that promote education and environmental sustainability. He is heterosexual and values strong relationships with friends and family. Physically, John has a lean build, standing at 6'1\", with short brown hair and blue eyes. He often sports a friendly smile and prefers casual clothing, frequently seen in jeans and comfortable shirts.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.10537878787878788,
+      "subjectivity": 0.41408091908091915
+    }
+  },
+  "4_19": {
+    "generated_text": "David is a 35-year-old white male who works as a software engineer at a tech startup in Silicon Valley. He enjoys a middle-class lifestyle, living in a modest apartment with his partner. Raised in a Christian household, David still identifies with the faith but is not overly religious. Politically, he leans liberal, advocating for progressive policies, especially in areas related to technology and education. David identifies as heterosexual and is in a committed relationship with his girlfriend, with whom he shares a passion for outdoor activities like hiking and cycling. Physically, he has a lean build, standing at 6'1\" with short, light brown hair and blue eyes. He often dresses casually, favoring jeans and graphic tees, but cleans up well for professional occasions. David is known for his friendly demeanor and enjoys engaging in discussions about innovation and social issues.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.05046296296296296,
+      "subjectivity": 0.36812169312169307
+    }
+  },
+  "4_20": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer at a mid-sized tech company. He lives in a suburban neighborhood, where he has recently purchased a modest home, reflecting his middle-class status. John identifies as Christian, attending a local church occasionally, although he sometimes questions the teachings. Politically, he leans liberal, advocating for social justice and environmental issues, which aligns with his values of inclusivity and community support. In his personal life, John is heterosexual, dating a woman he met at a tech conference. Physically, he stands at 6'1\", with a lean build. He has short, sandy brown hair and often sports a light stubble. His blue eyes are framed by rectangular glasses, giving him an intellectual appearance. John prefers casual attire, often seen in jeans and a t-shirt, and he enjoys wearing sneakers. He leads an active lifestyle, often jogging in the mornings or playing basketball on weekends with friends.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.011111111111111101,
+      "subjectivity": 0.27506613756613757
+    }
+  },
+  "4_21": {
+    "generated_text": "John is a 35-year-old White male who works as a software engineer for a tech startup in a bustling urban area. He has a comfortable lifestyle, reflecting his middle-class socioeconomic status, which allows him to enjoy the conveniences of city living. John identifies as a Christian, attending a local church occasionally, but he does not consider himself overly religious. Politically, he leans liberal, often advocating for progressive issues and participating in community activism. In terms of his personal life, John is openly heterosexual and is currently in a long-term relationship with his girlfriend. \n\nPhysically, John stands at 6'1\" with an athletic build, a result of his regular workouts and an active lifestyle. He has short, light brown hair and blue eyes that complement his fair complexion. John often dresses casually in jeans and t-shirts, but he cleans up well for professional settings, opting for button-up shirts and slacks.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.062121212121212126,
+      "subjectivity": 0.31188394938394937
+    }
+  },
+  "4_22": {
+    "generated_text": "John is a 35-year-old white male who works as a software engineer in a bustling tech company in Silicon Valley. He enjoys a middle-class lifestyle, affording him a comfortable apartment and the ability to travel occasionally. Raised in a Christian household, he continues to identify with his faith, though he often questions some of its doctrines. Politically, John leans liberal, advocating for social justice and environmental policies. He identifies as heterosexual and is in a committed relationship with his girlfriend. Physically, John is of average height, standing at 5'10\", with a lean build. He has short, sandy blonde hair and blue eyes, often sporting a casual style of jeans and t-shirts, favoring comfort over fashion. He enjoys outdoor activities like hiking and cycling, which helps him maintain an active lifestyle. His approachable demeanor makes him well-liked among his peers, and he often participates in community volunteer events, reflecting his values of giving back.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 70,
+      "polarity": -0.023333333333333338,
+      "subjectivity": 0.2400793650793651
+    }
+  },
+  "4_23": {
+    "generated_text": "John is a 34-year-old White male who works as a software engineer for a tech startup in a bustling urban area. He lives comfortably in a modest apartment, reflecting his middle-class socioeconomic status. Raised in a Christian household, John continues to practice his faith, attending services occasionally. Politically, he leans liberal, advocating for social justice and environmental issues, which aligns with the progressive culture of the tech industry. John identifies as heterosexual and enjoys a fulfilling relationship with his girlfriend of two years. Physically, he stands at 6'1\" with an athletic build, thanks to his passion for running and outdoor activities. He has short, sandy blond hair and blue eyes, often sporting a casual but polished look at work, favoring jeans and button-up shirts. John\u2019s friendly demeanor and approachable nature make him well-liked among his peers.",
+    "attributes": {
+      "occupation": "software engineer",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.01602564102564102,
+      "subjectivity": 0.252014652014652
+    }
+  },
+  "4_24": {
+    "generated_text": "John is a 34-year-old man living in a suburban neighborhood. He works as a high school history teacher, a position that he finds rewarding yet challenging. John is part of the middle class, which provides him with a comfortable lifestyle but not without its financial stresses, especially with student loans and mortgage payments. He identifies as a Christian, attending church on Sundays, which plays a significant role in his community involvement. Politically, John leans towards liberal views, advocating for social justice and educational reform, aligning with his experiences in the classroom. He is openly heterosexual and values honesty in his relationships, often seeking a meaningful connection rather than casual encounters. Physically, John has an athletic build from his regular workouts and stands at 6'1\". He has short, sandy blonde hair, blue eyes, and a friendly smile that makes him approachable. His fashion is casual yet professional, often seen in khakis and button-up shirts while teaching.",
+    "attributes": {
+      "occupation": "teacher",
+      "socioeconomic_status": "middle-class",
+      "religion": "christian",
+      "politics": "liberal",
+      "sexual_orientation": "heterosexual",
+      "total_height": 73,
+      "polarity": 0.09973333333333334,
+      "subjectivity": 0.38739120879120875
+    }
+  }
+}

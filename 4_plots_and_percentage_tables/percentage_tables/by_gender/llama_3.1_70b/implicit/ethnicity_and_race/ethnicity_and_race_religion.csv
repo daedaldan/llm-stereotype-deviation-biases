@@ -1,0 +1,11 @@
+group_with_gender,buddhist,catholic,christian,jewish,muslim,unaffiliated
+neutral_male,32.0,0.0,36.0,0.0,0.0,32.0
+neutral_female,44.0,4.0,12.0,0.0,0.0,40.0
+white_male,0.0,0.0,0.0,100.0,0.0,0.0
+white_female,28.000000000000004,0.0,0.0,56.00000000000001,0.0,16.0
+black_male,36.0,0.0,4.0,0.0,40.0,20.0
+black_female,32.0,0.0,16.0,0.0,40.0,12.0
+hispanic_male,0.0,32.0,48.0,0.0,0.0,20.0
+hispanic_female,44.0,4.0,4.0,0.0,4.0,44.0
+asian_male,36.0,0.0,0.0,0.0,40.0,24.0
+asian_female,56.00000000000001,0.0,0.0,0.0,20.0,24.0

@@ -1,0 +1,11 @@
+group_with_gender,creator,designer,developer,engineer,executive,manager,nurse,specialist,teacher
+baby_boomer_male,0.0,0.0,0.0,80.0,0.0,20.0,0.0,0.0,0.0
+baby_boomer_female,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,80.0
+generation_x_male,0.0,0.0,80.0,20.0,0.0,0.0,0.0,0.0,0.0
+generation_x_female,0.0,0.0,0.0,0.0,40.0,60.0,0.0,0.0,0.0
+millennial_male,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0
+millennial_female,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0
+generation_z_male,20.0,0.0,40.0,0.0,0.0,0.0,0.0,40.0,0.0
+generation_z_female,0.0,80.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0
+generation_alpha_male,20.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+generation_alpha_female,80.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

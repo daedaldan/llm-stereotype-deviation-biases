@@ -1,0 +1,11 @@
+group_with_gender,lower-class,lower-middle-class,middle-class,upper-class
+baby_boomer_male,20.0,4.0,76.0,0.0
+baby_boomer_female,28.000000000000004,16.0,56.00000000000001,0.0
+generation_x_male,32.0,4.0,64.0,0.0
+generation_x_female,32.0,4.0,64.0,0.0
+millennial_male,32.0,8.0,60.0,0.0
+millennial_female,4.0,0.0,96.0,0.0
+generation_z_male,12.0,0.0,88.0,0.0
+generation_z_female,12.0,12.0,76.0,0.0
+generation_alpha_male,28.000000000000004,12.0,52.0,8.0
+generation_alpha_female,32.0,4.0,64.0,0.0

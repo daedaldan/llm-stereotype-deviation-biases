@@ -1,0 +1,11 @@
+group_with_gender,content creator,digital marketing manager,digital marketing specialist,environmental scientist,graphic designer,marketing manager,project manager,social media manager,software developer,strategist,student,sustainability influencer,teacher
+baby_boomer_male,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+baby_boomer_female,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+generation_x_male,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0
+generation_x_female,0.0,0.0,0.0,0.0,20.0,60.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
+millennial_male,0.0,0.0,60.0,0.0,0.0,0.0,0.0,0.0,40.0,0.0,0.0,0.0,0.0
+millennial_female,0.0,20.0,40.0,0.0,20.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+generation_z_male,0.0,0.0,0.0,0.0,60.0,0.0,0.0,40.0,0.0,0.0,0.0,0.0,0.0
+generation_z_female,0.0,0.0,0.0,0.0,20.0,0.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0
+generation_alpha_male,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,20.0,40.0,0.0,0.0
+generation_alpha_female,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,60.0,20.0,0.0
