@@ -501,12 +501,15 @@ def get_cohens_h(group, attribute, model, bias_type):
     cohens_h = significance_tests[significance_tests['test'] == test_name]['cohens_h'].iloc[0]
 
     if cohens_h == 'Unknown':
-        return "(h=N/A)"
+        return "(h\mathord{=}N/A)"
 
     cohens_h = round(float(cohens_h), 2)
 
     # Return the p-value.
-    cohens_h_string = f"(h={cohens_h:.2f})"
+    if cohens_h < 0:
+        return "(h\mathord{=}\mathord{-}" + f"{(cohens_h * -1):.2f}" + ")"
+    else:
+        cohens_h_string = "(h\mathord{=}" + f"{cohens_h:.2f})"
     return cohens_h_string
     
 
@@ -581,10 +584,40 @@ def format_row(label, n, cells):
 def generate_latex_table(model_name, columns, sections, caption):
     num_cols = 2 + len(columns)
 
+    #print(caption.lower())
+    bias = 'implicit' if 'implicit' in caption else 'explicit'
+    models = {'claude-3.5-sonnet', 'command-r-plus', 'gpt-4o-mini', 'llama-3.1-70b'}
+    model = [m for m in caption.lower().split() if m in models][0]
+    categories = {'religion', 'politics', 'sexual', 'socioeconomic'}
+    category = [c for c in caption.lower().split() if c in categories][0]
+
+    if model == 'gpt-4o-mini':
+        model = 'gpt'
+    elif model == 'llama-3.1-70b':
+        model = 'llama'
+    elif model == 'command-r-plus':
+        model = 'command'
+    elif model == 'claude-3.5-sonnet':
+        model = 'claude'
+    else:
+        print("ERROR: model not found")
+
+    if category == 'sexual':
+        category = 'sexualorientation'
+    elif category == 'socioeconomic status':
+        category = 'socioeconomic'
+
+    table_label = f"table:{category}-{bias}-bias-{model}"
+    print(caption)
+    begin_landscape = r"\begin{landscape}" if category == "religion" else ""
+    end_landscape = r"\end{landscape}" if category == "religion" else ""
+
     header = rf"""
+{begin_landscape}
 \begin{{table}}[h!]
 \centering
-\tiny
+\small
+\setlength{{\tabcolsep}}{{0.15cm}}
 \renewcommand{{\arraystretch}}{{\MyArrayStretchFactor}}
 \begin{{tabular}}{{@{{}}ll{len(columns)*'c'}@{{}}}}
 \toprule
@@ -609,8 +642,10 @@ def generate_latex_table(model_name, columns, sections, caption):
     footer = rf"""
 \bottomrule
 \end{{tabular}}
-\caption{{{caption}}}
+\caption{{\textcolor{{red}}{{{caption}}}}}
+\label{{{table_label}}}
 \end{{table}}
+{end_landscape}
 """
 
     return header + "\n".join(body[:-1]) + footer
@@ -635,7 +670,7 @@ def build_sections_from_counts(category, counts, model, bias_type, sample_sizes,
 
     columns = [k.capitalize() for k in counts["male"].keys()]
 
-    print(category)
+    #print(category)
 
     for section_name, groups in structure.items():
         rows = []
@@ -769,10 +804,10 @@ def test_everything():
 MODELS = ["claude_3.5_sonnet", "gpt_4o_mini", "llama_3.1_70b", "command_r_plus"]
 # Types of bias to analyze.
 BIAS_TYPES = ['implicit', 'explicit']
-output_categories = ['religion', 'politics', 'sexual_orientation', 'socioeconomic_status']
+OUTPUT_CATEGORIES = ['politics', 'religion' , 'sexual_orientation', 'socioeconomic_status']
 
-output_category = ['socioeconomic_status']
-bias_type = ['explicit']
+output_category = ['politics']
+bias_type = ['implicit']
 model = ['gpt_4o_mini']
 
 print("\n\n\n")

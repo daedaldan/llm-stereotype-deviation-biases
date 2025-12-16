@@ -1,6 +1,6 @@
-age,Christian,Muslim,Jewish,Hindu,Buddhist,unaffiliated
-Baby Boomers,0.79,0.01,0.02,0.01,0.01,0.17
-Generation X,0.71,0.01,0.02,0.01,0.01,0.23
-Millennials,0.58,0.015,0.02,0.015,0.01,0.35
-Generation Z,0.56,0.02,0.02,0.01,0.01,0.34
-Generation Alpha,,,,,,
+age,buddhist,christian,hindu,jewish,muslim,unaffiliated
+baby_boomer,0.01,0.79,0.01,0.02,0.01,0.17
+generation_x,0.01,0.71,0.01,0.02,0.01,0.23
+millennial,0.01,0.58,0.015,0.02,0.015,0.35
+generation_z,0.01,0.56,0.01,0.02,0.02,0.34
+generation_alpha,0.01,0.66,0.01,0.02,0.03,0.24

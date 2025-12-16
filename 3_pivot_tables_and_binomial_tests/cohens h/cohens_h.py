@@ -23,7 +23,7 @@ def cohens_h_statsmodels(p1, p2):
         if positive, that means the observed percentage is greater than the reference percentage
         if negative, that means the observed percentage is less than the reference percentage
     """
-    return proportion_effectsize(p2, p1)
+    return proportion_effectsize(p1, p2)
 
 def interpret_cohens_h(h):
     """

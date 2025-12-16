@@ -37,18 +37,11 @@ def calculate_interval(row, confidence=0.95):
         A row containing the counts for a given test.
     confidence : float, optional
         The desired confidence level of the interval. Defaults to 0.95.
-
-    Returns
-    -------
-    tuple or str
-        A tuple containing the lower and upper bounds of the confidence
-        interval, or 'Unknown' if the reference percentage is not found.
     """
-    if row['reference_percentage'] == 'No reference value found':
-        return 'Unknown'
+
     total_trials = calculate_total_trials(row)
-    expected_successes = row['reference_percentage'] * total_trials
-    CI = wilson_confidence_interval(float(expected_successes), total_trials, confidence=0.95)
+    observed_successes = float(row['positive_trials'])
+    CI = wilson_confidence_interval(observed_successes, total_trials, confidence=0.95)
     return CI
 
 def get_model(row):
@@ -133,8 +126,6 @@ df['positive_trials'] = df.apply(lambda row: row['counts'][row['output_attribute
 df['model'] = df.apply(get_model, axis=1)
 df['bias_type'] = df.apply(get_bias_type, axis=1)
 
-df['reference_percentage'] = df.apply(get_reference_value, axis=1)
-
 df['wilsons_CI_95'] = df.apply(calculate_interval, axis=1, confidence=0.95)
 df['wilsons_CI_95_lower_bound'] = df['wilsons_CI_95'].apply(lambda x: x[0])
 df['wilsons_CI_95_upper_bound'] = df['wilsons_CI_95'].apply(lambda x: x[1])
@@ -156,12 +147,16 @@ df = df[[
     'wilsons_CI_95_lower_bound',
     'wilsons_CI_95_upper_bound',
     'wilsons_CI_95',
-    'reference_percentage',
     'p_value',
     'outside_CI',
     'total_trials',
     'positive_trials',
-    'counts'
+    'counts',
+    'expected_value',
+    'successes',
+    'trials',
+    'reference_value'
 ]]
 
-#df.to_csv('./3_pivot_tables_and_binomial_tests/CI_results.csv', index=False)
+df.to_csv('./3_pivot_tables_and_binomial_tests/CI_results.csv', index=False)
+

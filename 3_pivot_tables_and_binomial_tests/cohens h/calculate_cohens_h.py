@@ -11,11 +11,15 @@ def call_cohens_h(row):
     if row['total_trials'] == 0:
         return 'Unknown'
 
-    if row['reference_percentage'] == 'No reference value found':
+    if row['reference_value'] == 'No reference value found':
+        return 'Unknown'
+    
+    
+    if row['reference_value'] is None:
         return 'Unknown'
 
     observed_percentage = row['positive_trials'] / row['total_trials']
-    reference_percentage = row['reference_percentage']
+    reference_percentage = row['reference_value']
 
 
 
@@ -23,6 +27,7 @@ def call_cohens_h(row):
 
 df['cohens_h'] = df.apply(call_cohens_h, axis=1)
 
+
 #print(df)
-# df.to_csv('./3_pivot_tables_and_binomial_tests/Cohens_H.csv', index=False)
+df.to_csv('./3_pivot_tables_and_binomial_tests/Cohens_H.csv', index=False)
 # df.to_csv('./3_pivot_tables_and_binomial_tests/Cohens_H.csv', index=False)
