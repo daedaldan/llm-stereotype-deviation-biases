@@ -582,6 +582,13 @@ def format_row(label, n, cells):
 
 
 def generate_latex_table(model_name, columns, sections, caption):
+    print(columns)
+
+    for i in range(len(columns)):
+        if columns[i] == 'Lgbtq':
+            columns[i] = 'LGBTQ'
+    print(columns)
+
     num_cols = 2 + len(columns)
 
     #print(caption.lower())
@@ -608,7 +615,6 @@ def generate_latex_table(model_name, columns, sections, caption):
         category = 'socioeconomic'
 
     table_label = f"table:{category}-{bias}-bias-{model}"
-    print(caption)
     begin_landscape = r"\begin{landscape}" if category == "religion" else ""
     end_landscape = r"\end{landscape}" if category == "religion" else ""
 
@@ -642,7 +648,7 @@ def generate_latex_table(model_name, columns, sections, caption):
     footer = rf"""
 \bottomrule
 \end{{tabular}}
-\caption{{\textcolor{{red}}{{{caption}}}}}
+\caption{{\textcolor{{red}}{{{caption + "."}}}}}
 \label{{{table_label}}}
 \end{{table}}
 {end_landscape}
@@ -717,7 +723,7 @@ def build_sections_from_counts(category, counts, model, bias_type, sample_sizes,
                 )
 
             rows.append({
-                "label": group.replace("_", " ").title(),
+                "label": group.replace("_", " ").capitalize(),
                 "n": sample_sizes[group],
                 "cells": cells
             })
@@ -756,7 +762,7 @@ def get_table(category, model, bias_type, num_decimals=2, counts=None):
     )
 
     caption = (
-        f"{category.replace('_', ' ').title()} analysis of "
+        f"{category.replace('_', ' ').capitalize()} analysis of "
         f"{bias_type} bias for {model.replace('_', '-')}"
     )
 
@@ -806,8 +812,8 @@ MODELS = ["claude_3.5_sonnet", "gpt_4o_mini", "llama_3.1_70b", "command_r_plus"]
 BIAS_TYPES = ['implicit', 'explicit']
 OUTPUT_CATEGORIES = ['politics', 'religion' , 'sexual_orientation', 'socioeconomic_status']
 
-output_category = ['politics']
-bias_type = ['implicit']
+output_category = ['sexual_orientation']
+bias_type = ['explicit']
 model = ['gpt_4o_mini']
 
 print("\n\n\n")

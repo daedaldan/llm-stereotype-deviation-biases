@@ -17,6 +17,10 @@ def call_cohens_h(row):
     
     if row['reference_value'] is None:
         return 'Unknown'
+    
+    if row['reference_value'] == -1:
+        return 'Unknown'
+
 
     observed_percentage = row['positive_trials'] / row['total_trials']
     reference_percentage = row['reference_value']

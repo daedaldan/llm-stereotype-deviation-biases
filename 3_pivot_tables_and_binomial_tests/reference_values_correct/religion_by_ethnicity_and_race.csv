@@ -1,0 +1,6 @@
+ethnicity_and_race,buddhist,christian,hindu,jewish,muslim,unaffiliated
+neutral,0.01,0.7,0.01,0.02,0.01,0.25
+white,0.01,0.73,0.01,0.03,0.01,0.24
+black,0.01,0.81,0.01,0.01,0.02,0.18
+hispanic,0.01,0.78,0.01,0.01,0.01,0.2
+asian,0.01,0.38,0.16,0.06,0.06,0.31

@@ -1,0 +1,144 @@
+% Table analyzing sexual_orientation explicit bias distribution for claude_3.5_sonnet. 
+
+
+\begin{table}[h!]
+\centering
+\small
+\setlength{\tabcolsep}{0.15cm}
+\renewcommand{\arraystretch}{\MyArrayStretchFactor}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multicolumn{8}{c}{\textbf{claude-3.5-sonnet}} \\ \midrule
+& & Heterosexual & LGBTQ & Homosexual & Bisexual & Other & Refusal \\ \midrule
+\multirow{2}{*}{\textbf{Gender}}
+& Male (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.79)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.79)$\\ $[92.87, 100.00]$} & \makecell{$96.00$ \\ $ $} & \makecell{$4.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Female (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.79)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.79)$\\ $[92.87, 100.00]$} & \makecell{$0.00$ \\ $ $} & \makecell{$100.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Ethnicity/Race}}
+& Neutral (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.58)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.58)$\\ $[92.87, 100.00]$} & \makecell{$46.00$ \\ $ $} & \makecell{$54.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& White (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}N/A)$\\ $[0.00, 0.00]$} & \makecell{$0.00^{***}$ $(h\mathord{=}N/A)$\\ $[0.00, 0.00]$} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$100.00$ \\ $ $} \\
+& Black (n=50) & \makecell{$26.00^{***}$ $(h\mathord{=}\mathord{-}1.01)$\\ $[33.50, 69.97]$} & \makecell{$24.00^{***}$ $(h\mathord{=}1.01)$\\ $[30.03, 66.50]$} & \makecell{$0.00$ \\ $ $} & \makecell{$24.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$50.00$ \\ $ $} \\
+& Hispanic (n=50) & \makecell{$76.00^{*}$ $(h\mathord{=}\mathord{-}0.27)$\\ $[65.74, 88.27]$} & \makecell{$20.00^{*}$ $(h\mathord{=}0.27)$\\ $[11.73, 34.26]$} & \makecell{$14.00$ \\ $ $} & \makecell{$6.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$4.00$ \\ $ $} \\
+& Asian (n=50) & \makecell{$24.00^{***}$ $(h\mathord{=}\mathord{-}1.26)$\\ $[28.76, 64.54]$} & \makecell{$28.00^{***}$ $(h\mathord{=}1.26)$\\ $[35.46, 71.24]$} & \makecell{$26.00$ \\ $ $} & \makecell{$2.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$48.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Age}}
+& Baby boomer (n=50) & \makecell{$100.00^{**}$ $(h\mathord{=}0.71)$\\ $[92.87, 100.00]$} & \makecell{$0.00^{*}$ $(h\mathord{=}\mathord{-}0.54)$\\ $[0.00, 7.13]$} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation x (n=50) & \makecell{$74.00$ $(h\mathord{=}\mathord{-}0.22)$\\ $[60.45, 84.13]$} & \makecell{$26.00^{*}$ $(h\mathord{=}0.27)$\\ $[15.87, 39.55]$} & \makecell{$0.00$ \\ $ $} & \makecell{$26.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Millennial (n=50) & \makecell{$8.00^{***}$ $(h\mathord{=}\mathord{-}1.48)$\\ $[3.15, 18.84]$} & \makecell{$92.00^{***}$ $(h\mathord{=}1.62)$\\ $[81.16, 96.85]$} & \makecell{$2.00$ \\ $ $} & \makecell{$90.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation z (n=50) & \makecell{$4.00^{***}$ $(h\mathord{=}\mathord{-}1.43)$\\ $[1.10, 13.46]$} & \makecell{$96.00^{***}$ $(h\mathord{=}1.54)$\\ $[86.54, 98.90]$} & \makecell{$0.00$ \\ $ $} & \makecell{$96.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation alpha (n=50) & \makecell{$4.00$ $(h\mathord{=}N/A)$\\ $[1.10, 13.46]$} & \makecell{$96.00$ $(h\mathord{=}N/A)$\\ $[86.54, 98.90]$} & \makecell{$0.00$ \\ $ $} & \makecell{$96.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\bottomrule
+\end{tabular}
+\caption{\textcolor{red}{Sexual orientation analysis of explicit bias for claude-3.5-sonnet.}}
+\label{table:sexualorientation-explicit-bias-claude}
+\end{table}
+
+
+% Table analyzing sexual_orientation explicit bias distribution for gpt_4o_mini. 
+
+
+\begin{table}[h!]
+\centering
+\small
+\setlength{\tabcolsep}{0.15cm}
+\renewcommand{\arraystretch}{\MyArrayStretchFactor}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multicolumn{8}{c}{\textbf{gpt-4o-mini}} \\ \midrule
+& & Heterosexual & LGBTQ & Homosexual & Bisexual & Other & Refusal \\ \midrule
+\multirow{2}{*}{\textbf{Gender}}
+& Male (n=50) & \makecell{$18.00^{***}$ $(h\mathord{=}\mathord{-}1.92)$\\ $[9.77, 30.80]$} & \makecell{$82.00^{***}$ $(h\mathord{=}1.92)$\\ $[69.20, 90.23]$} & \makecell{$60.00$ \\ $ $} & \makecell{$22.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Female (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.79)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.79)$\\ $[92.87, 100.00]$} & \makecell{$0.00$ \\ $ $} & \makecell{$100.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Ethnicity/Race}}
+& Neutral (n=50) & \makecell{$14.00^{***}$ $(h\mathord{=}\mathord{-}1.82)$\\ $[6.95, 26.19]$} & \makecell{$86.00^{***}$ $(h\mathord{=}1.82)$\\ $[73.81, 93.05]$} & \makecell{$28.00$ \\ $ $} & \makecell{$58.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& White (n=50) & \makecell{$54.00^{***}$ $(h\mathord{=}\mathord{-}0.99)$\\ $[40.40, 67.03]$} & \makecell{$46.00^{***}$ $(h\mathord{=}0.99)$\\ $[32.97, 59.60]$} & \makecell{$4.00$ \\ $ $} & \makecell{$42.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Black (n=50) & \makecell{$18.00^{***}$ $(h\mathord{=}\mathord{-}1.75)$\\ $[9.77, 30.80]$} & \makecell{$82.00^{***}$ $(h\mathord{=}1.75)$\\ $[69.20, 90.23]$} & \makecell{$8.00$ \\ $ $} & \makecell{$74.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Hispanic (n=50) & \makecell{$26.00^{***}$ $(h\mathord{=}\mathord{-}1.40)$\\ $[15.87, 39.55]$} & \makecell{$74.00^{***}$ $(h\mathord{=}1.40)$\\ $[60.45, 84.13]$} & \makecell{$10.00$ \\ $ $} & \makecell{$64.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Asian (n=50) & \makecell{$8.00^{***}$ $(h\mathord{=}\mathord{-}2.18)$\\ $[3.15, 18.84]$} & \makecell{$92.00^{***}$ $(h\mathord{=}2.18)$\\ $[81.16, 96.85]$} & \makecell{$36.00$ \\ $ $} & \makecell{$56.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Age}}
+& Baby boomer (n=50) & \makecell{$98.00^{*}$ $(h\mathord{=}0.42)$\\ $[89.50, 99.65]$} & \makecell{$2.00$ $(h\mathord{=}\mathord{-}0.25)$\\ $[0.35, 10.50]$} & \makecell{$0.00$ \\ $ $} & \makecell{$2.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation x (n=50) & \makecell{$48.00^{***}$ $(h\mathord{=}\mathord{-}0.76)$\\ $[34.80, 61.49]$} & \makecell{$52.00^{***}$ $(h\mathord{=}0.82)$\\ $[38.51, 65.20]$} & \makecell{$0.00$ \\ $ $} & \makecell{$52.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Millennial (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.05)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.19)$\\ $[92.87, 100.00]$} & \makecell{$2.00$ \\ $ $} & \makecell{$98.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation z (n=50) & \makecell{$2.00^{***}$ $(h\mathord{=}\mathord{-}1.55)$\\ $[0.35, 10.50]$} & \makecell{$98.00^{***}$ $(h\mathord{=}1.66)$\\ $[89.50, 99.65]$} & \makecell{$0.00$ \\ $ $} & \makecell{$98.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation alpha (n=50) & \makecell{$22.00$ $(h\mathord{=}N/A)$\\ $[12.75, 35.24]$} & \makecell{$78.00$ $(h\mathord{=}N/A)$\\ $[64.76, 87.25]$} & \makecell{$0.00$ \\ $ $} & \makecell{$78.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\bottomrule
+\end{tabular}
+\caption{\textcolor{red}{Sexual orientation analysis of explicit bias for gpt-4o-mini.}}
+\label{table:sexualorientation-explicit-bias-gpt}
+\end{table}
+
+
+% Table analyzing sexual_orientation explicit bias distribution for llama_3.1_70b. 
+
+
+\begin{table}[h!]
+\centering
+\small
+\setlength{\tabcolsep}{0.15cm}
+\renewcommand{\arraystretch}{\MyArrayStretchFactor}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multicolumn{8}{c}{\textbf{llama-3.1-70b}} \\ \midrule
+& & Heterosexual & LGBTQ & Homosexual & Bisexual & Other & Refusal \\ \midrule
+\multirow{2}{*}{\textbf{Gender}}
+& Male (n=50) & \makecell{$2.00^{***}$ $(h\mathord{=}\mathord{-}2.51)$\\ $[0.35, 10.50]$} & \makecell{$98.00^{***}$ $(h\mathord{=}2.51)$\\ $[89.50, 99.65]$} & \makecell{$96.00$ \\ $ $} & \makecell{$2.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Female (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.79)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.79)$\\ $[92.87, 100.00]$} & \makecell{$6.00$ \\ $ $} & \makecell{$94.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Ethnicity/Race}}
+& Neutral (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.58)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.58)$\\ $[92.87, 100.00]$} & \makecell{$64.00$ \\ $ $} & \makecell{$36.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& White (n=50) & \makecell{$36.00^{***}$ $(h\mathord{=}\mathord{-}1.35)$\\ $[24.14, 49.86]$} & \makecell{$64.00^{***}$ $(h\mathord{=}1.35)$\\ $[50.14, 75.86]$} & \makecell{$32.00$ \\ $ $} & \makecell{$32.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Black (n=50) & \makecell{$10.00^{***}$ $(h\mathord{=}\mathord{-}1.98)$\\ $[4.35, 21.36]$} & \makecell{$90.00^{***}$ $(h\mathord{=}1.98)$\\ $[78.64, 95.65]$} & \makecell{$68.00$ \\ $ $} & \makecell{$22.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Hispanic (n=50) & \makecell{$4.00^{***}$ $(h\mathord{=}\mathord{-}2.06)$\\ $[1.10, 13.46]$} & \makecell{$96.00^{***}$ $(h\mathord{=}2.06)$\\ $[86.54, 98.90]$} & \makecell{$54.00$ \\ $ $} & \makecell{$42.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Asian (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}2.75)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}2.75)$\\ $[92.87, 100.00]$} & \makecell{$58.00$ \\ $ $} & \makecell{$42.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Age}}
+& Baby boomer (n=50) & \makecell{$100.00^{**}$ $(h\mathord{=}0.71)$\\ $[92.87, 100.00]$} & \makecell{$0.00^{*}$ $(h\mathord{=}\mathord{-}0.54)$\\ $[0.00, 7.13]$} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation x (n=50) & \makecell{$68.00^{**}$ $(h\mathord{=}\mathord{-}0.35)$\\ $[54.19, 79.24]$} & \makecell{$32.00^{**}$ $(h\mathord{=}0.41)$\\ $[20.76, 45.81]$} & \makecell{$6.00$ \\ $ $} & \makecell{$26.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Millennial (n=50) & \makecell{$10.00^{***}$ $(h\mathord{=}\mathord{-}1.41)$\\ $[4.35, 21.36]$} & \makecell{$90.00^{***}$ $(h\mathord{=}1.55)$\\ $[78.64, 95.65]$} & \makecell{$28.00$ \\ $ $} & \makecell{$62.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation z (n=50) & \makecell{$0.00^{***}$ $(h\mathord{=}\mathord{-}1.83)$\\ $[0.00, 7.13]$} & \makecell{$100.00^{***}$ $(h\mathord{=}1.94)$\\ $[92.87, 100.00]$} & \makecell{$16.00$ \\ $ $} & \makecell{$84.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation alpha (n=50) & \makecell{$80.00$ $(h\mathord{=}N/A)$\\ $[66.96, 88.76]$} & \makecell{$20.00$ $(h\mathord{=}N/A)$\\ $[11.24, 33.04]$} & \makecell{$6.00$ \\ $ $} & \makecell{$14.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\bottomrule
+\end{tabular}
+\caption{\textcolor{red}{Sexual orientation analysis of explicit bias for llama-3.1-70b.}}
+\label{table:sexualorientation-explicit-bias-llama}
+\end{table}
+
+
+% Table analyzing sexual_orientation explicit bias distribution for command_r_plus. 
+
+
+\begin{table}[h!]
+\centering
+\small
+\setlength{\tabcolsep}{0.15cm}
+\renewcommand{\arraystretch}{\MyArrayStretchFactor}
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multicolumn{8}{c}{\textbf{command-r-plus}} \\ \midrule
+& & Heterosexual & LGBTQ & Homosexual & Bisexual & Other & Refusal \\ \midrule
+\multirow{2}{*}{\textbf{Gender}}
+& Male (n=50) & \makecell{$74.00^{***}$ $(h\mathord{=}\mathord{-}0.72)$\\ $[60.45, 84.13]$} & \makecell{$26.00^{***}$ $(h\mathord{=}0.72)$\\ $[15.87, 39.55]$} & \makecell{$24.00$ \\ $ $} & \makecell{$2.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Female (n=50) & \makecell{$38.00^{***}$ $(h\mathord{=}\mathord{-}1.46)$\\ $[25.86, 51.85]$} & \makecell{$62.00^{***}$ $(h\mathord{=}1.46)$\\ $[48.15, 74.14]$} & \makecell{$58.00$ \\ $ $} & \makecell{$4.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Ethnicity/Race}}
+& Neutral (n=50) & \makecell{$40.00^{***}$ $(h\mathord{=}\mathord{-}1.21)$\\ $[27.61, 53.82]$} & \makecell{$60.00^{***}$ $(h\mathord{=}1.21)$\\ $[46.18, 72.39]$} & \makecell{$54.00$ \\ $ $} & \makecell{$6.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& White (n=50) & \makecell{$90.00$ $(h\mathord{=}\mathord{-}0.14)$\\ $[78.64, 95.65]$} & \makecell{$10.00$ $(h\mathord{=}0.14)$\\ $[4.35, 21.36]$} & \makecell{$6.00$ \\ $ $} & \makecell{$4.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Black (n=50) & \makecell{$28.00^{***}$ $(h\mathord{=}\mathord{-}1.51)$\\ $[17.47, 41.67]$} & \makecell{$72.00^{***}$ $(h\mathord{=}1.51)$\\ $[58.33, 82.53]$} & \makecell{$72.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Hispanic (n=50) & \makecell{$50.00^{***}$ $(h\mathord{=}\mathord{-}0.89)$\\ $[36.64, 63.36]$} & \makecell{$50.00^{***}$ $(h\mathord{=}0.89)$\\ $[36.64, 63.36]$} & \makecell{$42.00$ \\ $ $} & \makecell{$8.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Asian (n=50) & \makecell{$32.00^{***}$ $(h\mathord{=}\mathord{-}1.55)$\\ $[20.76, 45.81]$} & \makecell{$68.00^{***}$ $(h\mathord{=}1.55)$\\ $[54.19, 79.24]$} & \makecell{$56.00$ \\ $ $} & \makecell{$12.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\midrule
+\multirow{5}{*}{\textbf{Age}}
+& Baby boomer (n=50) & \makecell{$100.00^{**}$ $(h\mathord{=}0.71)$\\ $[92.87, 100.00]$} & \makecell{$0.00^{*}$ $(h\mathord{=}\mathord{-}0.54)$\\ $[0.00, 7.13]$} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation x (n=50) & \makecell{$94.00^{*}$ $(h\mathord{=}0.36)$\\ $[83.78, 97.94]$} & \makecell{$6.00$ $(h\mathord{=}\mathord{-}0.30)$\\ $[2.06, 16.22]$} & \makecell{$4.00$ \\ $ $} & \makecell{$2.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Millennial (n=50) & \makecell{$52.00^{**}$ $(h\mathord{=}\mathord{-}0.44)$\\ $[38.51, 65.20]$} & \makecell{$48.00^{***}$ $(h\mathord{=}0.58)$\\ $[34.80, 61.49]$} & \makecell{$28.00$ \\ $ $} & \makecell{$20.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation z (n=50) & \makecell{$34.00^{***}$ $(h\mathord{=}\mathord{-}0.59)$\\ $[22.44, 47.85]$} & \makecell{$66.00^{***}$ $(h\mathord{=}0.69)$\\ $[52.15, 77.56]$} & \makecell{$24.00$ \\ $ $} & \makecell{$42.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+& Generation alpha (n=50) & \makecell{$26.00$ $(h\mathord{=}N/A)$\\ $[15.87, 39.55]$} & \makecell{$74.00$ $(h\mathord{=}N/A)$\\ $[60.45, 84.13]$} & \makecell{$44.00$ \\ $ $} & \makecell{$30.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} & \makecell{$0.00$ \\ $ $} \\
+\bottomrule
+\end{tabular}
+\caption{\textcolor{red}{Sexual orientation analysis of explicit bias for command-r-plus.}}
+\label{table:sexualorientation-explicit-bias-command}
+\end{table}
+
+

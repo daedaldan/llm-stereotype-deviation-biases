@@ -59,11 +59,12 @@ def get_model(row):
         The model name.
     """
     name = row['test']
+    print(name)
     if "claude_3.5_sonnet" in name:
         return "claude_3.5_sonnet"
     elif "llama_3.1_70b"   in name:
         return "llama_3.1_70b"
-    elif "gpt-4o-mini" in name:
+    elif "gpt_4o_mini" in name:
         return "gpt-4o-mini"
     elif "command_r_plus" in name:
         return "command_r_plus"
@@ -152,7 +153,6 @@ df = df[[
     'total_trials',
     'positive_trials',
     'counts',
-    'expected_value',
     'successes',
     'trials',
     'reference_value'
