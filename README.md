@@ -41,7 +41,7 @@ We then perform keyword extraction and sentiment analysis to obtain the followin
 
 These generated texts are stored in JSON files that are used in the third stage in the pipeline.
 
-## 3. Pivot Tables and Binomial Tests
+## 3. Pivot Tables, Binomial Tests, Confidence Intervals, and Effect Sizes
 Using the LLM-generated texts, we create pivot tables describing how the distributions of different demographic attributes (e.g., religion, politics) in the texts differ based on the input groups (e.g, gender, race, age) represented by the prompts.
 
 We then analyze the LLM outputs by looking at two different types of bias:
@@ -52,7 +52,7 @@ We then analyze the LLM outputs by looking at two different types of bias:
 
 To measure the stereotype biases in the texts, we compute the maximum Kullback-Leibler divergence between any pair of demographic groups within each input category (gender, ethnicity and race, or age).
 
-To calculate the deviation biases in the LLM outputs, we perform binomial tests comparing the observed demographic statistics in the texts generated for each input group with their corresponding real-world demographic statistics in the United States.
+To calculate the deviation biases in the LLM outputs, we perform binomial tests comparing the observed demographic statistics in the texts generated for each input group with their corresponding real-world demographic statistics in the United States. We additionally compute Wilson confidence intervals for each estimated binomial proportion and use Cohen’s h to quantify the effect size of the difference between the observed proportions and their corresponding real-world reference values. The results all deviation bias tests are within the "Cohens_H.csv" file.
 
 ## 4. Creating Plots and Percentage Tables
 After creating the pivot tables, we can visualize the distributions of demographic attributes for each gender, ethnic, and age group using stacked bar charts for categorical variables (e.g., socioeconomic status) and violinplots for numerical variables (e.g., polarity). During this step, we also create percentage tables describing the distributions.
